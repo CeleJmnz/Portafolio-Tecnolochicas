@@ -27,13 +27,14 @@ h1 {
 
 .seccion-oscura {
   color: rgb(252, 248, 248);
-  background-color: rgb(81, 159, 148);
+  background-color: rgb(113, 230, 220);
+  
 }
 
 .seccion-clara {
   color: black;
   background-image: url('https://th.bing.com/th/id/R.4ff17b4862815538d19d533ab76f05ac?rik=kWZrIiN0TV4TNg&pid=ImgRaw&r=0');
-  background-color: rgb(199, 160, 217);
+  background-color: rgb(113, 230, 220);
 }
 
 .seccion-titulo {
@@ -46,7 +47,7 @@ h1 {
 
 .seccion-descripcion {
   font-size:1.4rem;
-  color: #f8f4f4;
+  color: #f8f4f4
 }
 
 .seccion-texto {
@@ -67,19 +68,22 @@ h1 {
 }
 
 body{
-  background-image: url('https://th.bing.com/th/id/R.4ff17b4862815538d19d533ab76f05ac?rik=kWZrIiN0TV4TNg&pid=ImgRaw&r=0');
+  background-image: url('https://th.bing.com/th/id/OIP.wnGbxxEsIn9Wi_tt3nHrAQHaFj?w=480&h=360&rs=1&pid=ImgDetMain');
+  background-image: url('ttps://static.vecteezy.com/system/resources/previews/004/704/038/non_2x/light-blue-and-gray-colorful-dramatic-space-with-colorful-galaxies-and-stars-for-background-free-photo.jpg');
+  background-color:rgb(0, 100, 131);
 }
 /* Seccion Hero */
 
 .hero {
-  background-image: url('https://th.bing.com/th/id/R.4ff17b4862815538d19d533ab76f05ac?rik=kWZrIiN0TV4TNg&pid=ImgRaw&r=0');
-  background-color: #1c1b1d;
-  min-height: 450px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/704/038/non_2x/light-blue-and-gray-colorful-dramatic-space-with-colorful-galaxies-and-stars-for-background-free-photo.jpg');
+  background-color: rgb(57, 183, 183);
+  min-height: 460px;
   text-align: center;
 }
 
 .hero-principal {
-  padding: 3rem;
+  padding: 2rem;
+  margin-top: 10px;
 }
 
 .hero-inferior-imagen{
@@ -104,7 +108,8 @@ body{
 .sobre-mi {
   height: 300px;
   padding: 10px;
-  margin: 3%;
+  margin: 25px;
+  border: 8px solid #faf0f0;
   background-color: rgb(57, 183, 183);
 }
 
@@ -113,10 +118,12 @@ body{
   text-align: justify;
 }
 
+
 /* Experiencia */
 
 .experiencia {
   padding: 40px 40px 60px 40px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/704/038/non_2x/light-blue-and-gray-colorful-dramatic-space-with-colorful-galaxies-and-stars-for-background-free-photo.jpg');
 }
 
 .experiencia .columna {
@@ -167,6 +174,7 @@ body{
 
 .proyectos-recientes {
   padding: 40px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/704/038/non_2x/light-blue-and-gray-colorful-dramatic-space-with-colorful-galaxies-and-stars-for-background-free-photo.jpg');
 }
 
 .proyectos-recientes img {
@@ -226,6 +234,7 @@ body{
 
 .testimonios {
   padding: 40px 40px 80px 40px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/704/038/non_2x/light-blue-and-gray-colorful-dramatic-space-with-colorful-galaxies-and-stars-for-background-free-photo.jpg');
 }
 
 .testimonios .carousel {
